@@ -1,0 +1,216 @@
+.zaui-text {
+  font-weight: inherit;
+}  
+
+:root {
+  --header-height: 44px;
+  --bottom-nav-height: 48px;
+
+  --color-ng-10: 247 247 248; // #F7F7F8
+
+  --color-primary-rgb: 242 87 48; // #F25730
+  --color-primary: #F25730;
+  --color-primary-pressed: #BF4526;
+  --color-primary-foreground: #ffffff;
+  --color-inactive: #6F7071;
+  --color-inactive-foreground: #ffffff;
+  --color-border: #e5e5e5;
+  --color-text: #0D0D0D;
+  --color-text-secondary: #767A7F;
+  --color-text-subtle: #6F7071;
+  --color-divider: rgba(0, 0, 0, 0.05);
+  --color-background: #ffffff;
+}
+
+html, body {
+  background-color: #F7F8FA;
+  user-select: none;
+  --inset-top: var(--zaui-safe-area-inset-top, 0px);
+  --inset-bottom: var(--zaui-safe-area-inset-bottom, 0px);
+  color: var(--color-text)
+}
+
+.inset-top {
+  padding-top: var(--zaui-safe-area-inset-top, 0px);
+}
+
+.inset-bottom {
+  padding-bottom: var(--zaui-safe-area-inset-bottom, 0px);
+}
+
+.page-container {
+  --header-height: 0px;
+  --inset-top: var(--zaui-safe-area-inset-top, 0px);
+  padding-top: calc(var(--inset-top, 0px) + var(--header-height));
+}
+
+.with-header {
+  --header-height: 44px;
+}
+
+.with-bottom-nav {
+  --inset-bottom: var(--zaui-safe-area-inset-bottom, 0px);
+  padding-bottom: calc(var(--inset-bottom, 0px) + var(--bottom-nav-height));
+}
+
+.no-inset-top {
+  --inset-top: 0px;
+}
+
+.no-inset-bottom {
+  --inset-bottom: 0px;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.primary-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) var(--color-primary);
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary);
+  }
+}
+
+// ZAUI Overrides
+.zaui-header-back {
+  .zaui-btn-tertiary.zaui-btn-neutral {
+    color: #fff;
+
+    &:active, &:focus-visible {
+      background-color: transparent;
+    }
+  }
+}
+
+.zaui-bottom-navigation-item {
+  color: #6F7071;
+}
+.zaui-bottom-navigation-item-active {
+  color: var(--color-primary);
+}
+
+.zaui-btn-primary {
+  background-color: var(--color-primary);
+  
+  &:active, &:focus-visible {
+    background-color: var(--color-primary-pressed);
+  }
+}
+
+.zaui-snackbar-bottom {
+  bottom: calc(var(--zaui-safe-area-inset-bottom, 0px) + var(--bottom-nav-height) + 16px);
+}
+
+.zaui-header {
+  padding-right: 100px;
+
+  &.no-divider::after {
+    display: none;
+  }
+}
+
+// TODO: Xóa sau khi ZAUI fix
+.zaui-checkbox + span {
+  margin-left: 0px;
+}
+
+.zaui-checkbox-checked .zaui-checkbox-inner {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.zaui-tabs.zaui-tabs-fluid {
+  .zaui-tabs-tabbar {
+    justify-content: center;
+  }
+  
+  .zaui-tabs-tabbar-item {
+    color: var(--color-text-subtle);
+    flex: 1 1 0%;
+    text-align: center;
+    max-width: 100%;
+    font-weight: 500;
+  }
+  .zaui-tabs-tabbar-item-active {
+    color: var(--color-primary);
+  }
+}
+.zaui-tabs-tabbar-active-line {
+  background-color: var(--color-primary);
+}
+
+.zaui-btn-small {
+  height: 34px;
+  padding: 7px 16px;
+}
+.zaui-btn-medium {
+  height: 42px;
+}
+
+
+.zaui-modal-title-left .zaui-modal-content-title {
+  text-align: left;
+}
+
+.zaui-modal-content-actions::before {
+  width: 100%;
+  left: 0;
+  height: 1px;
+  background-color: var(--color-divider);
+}
+.zaui-modal-content-action {
+  font-weight: 500;
+  &-highlight {
+    color: var(--color-primary);
+  }
+
+  &.zaui-btn-tertiary.zaui-btn-highlight {
+    color: var(--color-primary);
+  }
+}
+
+.zaui-modal.modal-oa-follow {
+  .zaui-modal-content {
+    width: 280px;
+  }
+  .zaui-modal-content-cover {
+    width: 280px;
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  .zaui-modal-content-main {
+    padding: 24px 16px;
+  }
+
+  .zaui-modal-content-title {
+    margin-bottom: 0;
+  }
+}
+
+.zaui-modal.modal-qr-popup {
+  .zaui-modal-content-title { margin: 0; }
+  .zaui-modal-content-main {
+    padding: 12px;
+  }
+}
+
+.zaui-list .zaui-list-item:not(:last-child) .zaui-list-item-right::after, .zaui-tabs-tabbar::after {
+  background-color: var(--color-divider);
+  height: 1px;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

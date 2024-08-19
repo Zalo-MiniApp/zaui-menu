@@ -1,0 +1,95 @@
+{
+  "error": 0,
+  "message": "Successful",
+  "data": [
+    {
+      "id": 1493,
+      "status": "PENDING",
+      "createdAt": 1723708831883,
+      "total": 478000,
+      "items": [
+        {
+          "id": 3817,
+          "product": {
+            "id": 144,
+            "name": "Absinthe 90 neat",
+            "price": 27000,
+            "sku": null,
+            "description": "Cà phê sữa đá là một biểu tượng của văn hóa cà phê Việt Nam. Đây là một phần không thể thiếu trong danh sách thức uống của người Việt, đặc biệt là vào buổi sáng hoặc sau bữa ăn trưa. Một ly cà phê sữa đá được chuẩn bị bằng cách kết hợp cà phê đậm đặc và đường với sữa đặc ngọt ngào, tạo ra một hương vị thơm ngon và đậm đà. Thức uống này thường được phục vụ trong ly cao cấp, có đá viên lớn để giữ cho cà phê mát và hấp dẫn. Vị đắng của cà phê kết hợp với vị ngọt của sữa tạo nên một trải nghiệm hương vị đặc biệt và thư giãn",
+            "imageUrl": "https://stc-zmp.zadn.vn/zmenu/products/d6.jpg",
+            "status": "ACTIVE",
+            "category": null,
+            "toppings": null
+          },
+          "quantity": 1,
+          "note": "",
+          "toppings": [
+            {
+              "id": 110,
+              "name": "Nhiều đường",
+              "price": 0,
+              "status": "ACTIVE"
+            }
+          ],
+          "itemPrice": 27000
+        },
+        {
+          "id": 3818,
+          "product": {
+            "id": 111,
+            "name": "Bánh cuốn thịt nướng đậm đà",
+            "price": 111000,
+            "sku": null,
+            "description": "Một món ăn đặc trưng của miền Trung Việt Nam, mì Quảng thường được phục vụ với mì sợi màu vàng, thịt heo, tôm, thịt gà, rau sống, và nước dùng từ xương.",
+            "imageUrl": "https://stc-zmp.zadn.vn/zmenu/products/d2.jpg",
+            "status": "ACTIVE",
+            "category": null,
+            "toppings": null
+          },
+          "quantity": 1,
+          "note": "",
+          "toppings": [
+            {
+              "id": 69,
+              "name": "Nước sốt tiêu đen",
+              "price": 10000,
+              "status": "ACTIVE"
+            },
+            {
+              "id": 68,
+              "name": "Nước sốt mè",
+              "price": 15000,
+              "status": "ACTIVE"
+            }
+          ],
+          "itemPrice": 136000
+        },
+        {
+          "id": 3819,
+          "product": {
+            "id": 118,
+            "name": "Mì Quảng thịt heo gà hấp dẫn đa dạng",
+            "price": 105000,
+            "sku": null,
+            "description": "Bánh mì mỏng được làm từ bột gạo, thường được cuốn với nhân thịt nướng hoặc tôm, và thường được ăn kèm với nước mắm chua ngọt và rau sống.",
+            "imageUrl": "https://stc-zmp.zadn.vn/zmenu/products/f1.jpg",
+            "status": "ACTIVE",
+            "category": null,
+            "toppings": null
+          },
+          "quantity": 3,
+          "note": "",
+          "toppings": [
+            {
+              "id": 81,
+              "name": "Ít đường",
+              "price": 0,
+              "status": "ACTIVE"
+            }
+          ],
+          "itemPrice": 315000
+        }
+      ]
+    }
+  ]
+}

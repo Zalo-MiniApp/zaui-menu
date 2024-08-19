@@ -1,0 +1,18 @@
+{
+  "error": 0,
+  "message": "Successful",
+  "data": {
+    "merchant": {
+      "merchantId": "1",
+      "name": "ZaUI Menu",
+      "address": "VNG Campus, Z06 Số 13, Tân Thuận Đông, Quận 7, TP. Hồ Chí Minh",
+      "code": null,
+      "description": "ZaUI Menu là template để phát triển Zalo Mini App menu trực tuyến cho các nhà hàng",
+      "logoUrl": "https://zmp-community.zdn.vn/community/7acb818fbfca56940fdb.jpg",
+      "coverUrl": "https://zmp-community.zdn.vn/community/4778bf3c817968273168.jpg",
+      "status": "ACTIVE",
+      "visibleOrder": "ENABLE",
+      "oa": null
+    }
+  }
+}

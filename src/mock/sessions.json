@@ -1,0 +1,17 @@
+{
+  "error": 0,
+  "message": "Successful",
+  "data": {
+    "orderSession": {
+      "id": "5889248830909830576",
+      "status": "ACTIVE",
+      "createdAt": 1723708831863,
+      "updatedAt": 1723708831863
+    },
+    "owner": {
+      "id": "2908826709798209620",
+      "name": "Teddy",
+      "avatar": "https://s240.avatar.talk.zdn.vn/1/d/a/0/55/240/7a813bfdf6e61514cfb655319f01ae15.jpg"
+    }
+  }
+}

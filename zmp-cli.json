@@ -1,0 +1,16 @@
+{
+  "cwd": "/Users/xuannghia/Zalo/ZQRMenuMiniApp",
+  "newProject": true,
+  "name": "miniapp",
+  "package": "zmp-ui",
+  "framework": "react-typescript",
+  "cssPreProcessor": "scss",
+  "template": "blank",
+  "theming": {
+    "color": "#007aff",
+    "darkTheme": false,
+    "fillBars": false
+  },
+  "customBuild": false,
+  "includeTailwind": true
+}
