@@ -3,12 +3,12 @@ import { getAccessToken } from 'zmp-sdk'
 import { API_URL } from '@/constants/common'
 import { MerchantNotFoundError } from '@/constants/errors'
 
-const mockUrls = import.meta.glob<{ default: string }>('@/mock/*.json', { query: 'url', eager: true })
+const mockUrls = import.meta.glob<{ default: string }>('../mock/*.json', { query: 'url', eager: true })
 
 export async function request<T>(path: string, options?: RequestInit): Promise<T> {
   const url = API_URL
     ? `${API_URL}${path}`
-    : mockUrls[`/src/mock${path === '/' ? '/index' : path.split('?')[0]}.json`]?.default
+    : mockUrls[`../mock${path === '/' ? '/index' : path.split('?')[0]}.json`]?.default
 
   const response = await fetch(url, {
     ...options,
