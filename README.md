@@ -1,14 +1,14 @@
-# ZaUI Menu
+# DTT Restaurant
 
 <p style="display: flex; flex-wrap: wrap; gap: 4px">
-  <img alt="vite" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/zaui-menu/dev/vite" />
-  <img alt="react" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/zaui-menu/react" />
-  <img alt="zmp-ui" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/zaui-menu/zmp-ui" />
-  <img alt="zmp-sdk" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/zaui-menu/zmp-sdk" />
-  <img alt="zustand" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/zaui-menu/zustand" />
-  <img alt="@tanstack/react-query" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/zaui-menu/@tanstack/react-query" />
-  <img alt="tailwindcss" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/zaui-menu/dev/tailwindcss" />
-  <img alt="scss" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/zaui-menu/dev/sass" />
+  <img alt="vite" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/DTT Restaurant-menu/dev/vite" />
+  <img alt="react" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/DTT Restaurant-menu/react" />
+  <img alt="zmp-ui" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/DTT Restaurant-menu/zmp-ui" />
+  <img alt="zmp-sdk" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/DTT Restaurant-menu/zmp-sdk" />
+  <img alt="zustand" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/DTT Restaurant-menu/zustand" />
+  <img alt="@tanstack/react-query" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/DTT Restaurant-menu/@tanstack/react-query" />
+  <img alt="tailwindcss" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/DTT Restaurant-menu/dev/tailwindcss" />
+  <img alt="scss" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/DTT Restaurant-menu/dev/sass" />
 </p>
 
 Public template for building an online menu and ordering app for restaurants.
@@ -28,7 +28,7 @@ Public template for building an online menu and ordering app for restaurants.
 ### Using Zalo Mini App Extension
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/download) and [Zalo Mini App Extension](https://mini.zalo.me/docs/dev-tools).
-1. Click on **Create Project** > Choose **ZaUI Menu** template > Wait until the generated project is ready.
+1. Click on **Create Project** > Choose **DTT Restaurant** template > Wait until the generated project is ready.
 1. **Configure App ID** and **Install Dependencies**, then navigate to the **Run** panel > **Start** to develop your Mini App 🚀
 
 ### Using Zalo Mini App CLI
@@ -85,7 +85,7 @@ Folder structure:
     - **`oa`**: Follow OA.
     - **`orders`**: Cart management and order history.
     - **`products`**: Product-related features.
-  - **`pages`**: A Page is also a component but will act as an entire view and must be registered inside `app.tsx` as a [Route](https://mini.zalo.me/docs/zaui/router/ZMPRouter/).
+  - **`pages`**: A Page is also a component but will act as an entire view and must be registered inside `app.tsx` as a [Route](https://mini.zalo.me/docs/DTT Restaurant/router/ZMPRouter/).
   - **`utils`**: Reusable utility functions, such as API integration, storage management, date and time formatting, etc.
   - **`app.tsx`**: Root component of your entire Mini App. React DOM will mount this component to the element `#app`.
   - **`main.ts`**: Entry point of your Mini App.
