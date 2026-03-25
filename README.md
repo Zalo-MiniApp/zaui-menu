@@ -27,14 +27,14 @@ Public template for building an online menu and ordering app for restaurants.
 
 ### Using Zalo Mini App Extension
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/download) and [Zalo Mini App Extension](https://mini.zalo.me/docs/dev-tools).
+1. Install [Visual Studio Code](https://code.visualstudio.com/download) and [Zalo Mini App Extension](https://miniapp.zaloplatforms.com/documents/devtools).
 1. Click on **Create Project** > Choose **ZaUI Menu** template > Wait until the generated project is ready.
 1. **Configure App ID** and **Install Dependencies**, then navigate to the **Run** panel > **Start** to develop your Mini App 🚀
 
 ### Using Zalo Mini App CLI
 
 1. [Install Node JS](https://nodejs.org/en/download/).
-1. [Install Zalo Mini App CLI](https://mini.zalo.me/docs/dev-tools/cli/intro/).
+1. [Install Zalo Mini App CLI](https://miniapp.zaloplatforms.com/documents/devtools/cli/intro/).
 1. **Download** or **clone** this repository.
 1. **Install dependencies**:
    ```bash
@@ -46,13 +46,9 @@ Public template for building an online menu and ordering app for restaurants.
    ```
 1. **Open** `localhost:3000` in your browser and start coding 🔥
 
-### Using Zalo Mini App Studio
-
-This template is built using **Vite 5.x**, which is **not compatible** with Zalo Mini App Studio.
-
 ## Deployment
 
-1. **Create** a mini program. For instructions on how to create a mini program, please refer to the [Coffee Shop Tutorial](https://mini.zalo.me/tutorial/coffee-shop/step-1/)
+1. **Create** a mini program. For instructions on how to create a mini program, please refer to the [Coffee Shop Tutorial](https://miniapp.zaloplatforms.com/documents/tutorial/coffee-shop)
 
 1. **Deploy** your mini program to Zalo using the mini app ID created.
 
@@ -85,14 +81,14 @@ Folder structure:
     - **`oa`**: Follow OA.
     - **`orders`**: Cart management and order history.
     - **`products`**: Product-related features.
-  - **`pages`**: A Page is also a component but will act as an entire view and must be registered inside `app.tsx` as a [Route](https://mini.zalo.me/docs/zaui/router/ZMPRouter/).
+  - **`pages`**: A Page is also a component but will act as an entire view and must be registered inside `app.tsx` as a [Route](https://miniapp.zaloplatforms.com/documents/zaui/router/ZMPRouter/).
   - **`utils`**: Reusable utility functions, such as API integration, storage management, date and time formatting, etc.
   - **`app.tsx`**: Root component of your entire Mini App. React DOM will mount this component to the element `#app`.
   - **`main.ts`**: Entry point of your Mini App.
   - **`polyfills.ts`**: Polyfills for older browsers.
   - **`shared.d.ts`**: Contains TypeScript declarations for third-party modules and global objects.
 
-- **`app-config.json`**: [Zalo Mini App Configuration](https://mini.zalo.me/docs/framework/getting-started/app-config).
+- **`app-config.json`**: [Zalo Mini App Configuration](https://miniapp.zaloplatforms.com/documents/intro/getting-started/app-config/).
 
 The other files (such as `tailwind.config.js`, `vite.config.mts`, `tsconfig.json`, `postcss.config.js`, `.eslintrc.js`, and `.prettierrc`) are configurations for libraries used in your application. Visit the library's documentation to learn how to use them.
 
@@ -109,7 +105,7 @@ The other files (such as `tailwind.config.js`, `vite.config.mts`, `tsconfig.json
    - `GET  /sessions`: Retrieve the current session, based on the user's identity.
    - `POST /orders`: Process submitted orders.
 
-> The user's identity can be retrieved from the `Authorization: Bearer ${ACCESS_TOKEN}` header sent along with each API request. Visit the [Login with Zalo](https://mini.zalo.me/intro/authen-user/) documentation for more detailed instructions.
+> The user's identity can be retrieved from the `Authorization: Bearer ${ACCESS_TOKEN}` header sent along with each API request. Visit the [Login with Zalo](https://miniapp.zaloplatforms.com/documents/intro/authen-user/) documentation for more detailed instructions.
 
 > Refer to the `src/mock/*.json` files for sample data and structure.
 
